@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="bootstrap.min.css"/>
+	 <link rel="icon" href="r.png" type="image/gif" sizes="16x16">
+ 	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+	<title>erajasthan.net</title>
+	<style>
+		.hello{font-size: 30px;}
+		.hawa{border:1px solid white;font-size: 18px;color: white;padding: 5px}
+		.white{color:white; text-decoration: none;}
+		.head{color:#fb7402;font-family: "fira-sans";font-size: 25;}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+		<div class="container-fluid">
+			<div class="navbar-brand"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"></span>
+    	</div>
+			<div class="navbar-header"><img src="logo.png" width="140px" height="70px" class="image-responsive">
+			</div>
+					
+  			</button>
+			<ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="collapsibleNavbar">
+				<li class="nav-item"><a class="nav-link" href="#"><b>HOME</b></a></li>
+				<li class="nav-item"><a class="nav-link" href="#"><b>RAJASTHAN TOUR PACKAGES</b></a></li>
+				<li class="nav-item"><a class="nav-link" href="#"><b>PLACES TO VISIT IN RAJASTHAN</b></a></li>
+				<li class="nav-item"><a class="nav-link" href="#"><b>THINGS TO DO RAJASTHAN</b></a></li>
+				<li class="nav-item"><button type=button class="btn btn-warning navbar-btn btn-lg" data-toggle="modal" data-target="#myModal">ENQUIRY FORM</button></li>
+			</ul>
+			
+		</div>
+	</nav>
+	<div class="container-fluid">
+	 <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <p class="hello">GET BEST TOUR PACKAGES</p>
+        </div>
+        <div class="modal-body">
+          <form>
+          	<div class="form-group">
+          		<label for="name">Name:</label><input type="text" name="name" class="form-control" required>
+          		<label for="email">E-mail:</label><input type="email" name="email" class="form-control">
+          		<label for="no">Phone:</label><input type="number" name="no" class="form-control">
+          		<label for="city">City:</label><input type="text" name="city" class="form-control">
+          		<label for="norooms">No.Of.Rooms:</label><input type="number" name="room" class="form-control" max="15">
+          		<label for="arrival">Arrival Date:</label><input type="date" name="arrival" class="form-control"><br><br>
+          		<input type="button" name="button" value="Submit" class="btn-lg btn-warning">
+          	</div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  </div><br>
+</div>
+<div class="container-fluid">
+<img src="package.jpg" width="100%" height="100%" class="image-responsive">
+
+</div>
+</body>
+</html>
